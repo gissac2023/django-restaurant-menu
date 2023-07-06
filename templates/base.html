@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" nonce="71becdb8ec7f4a5aa63cf9851f4" src="//local.adguard.org?ts=1688636291820&amp;type=content-script&amp;dmn=att-c.udemycdn.com&amp;url=https%3A%2F%2Fatt-c.udemycdn.com%2F2023-05-12_09-55-46-a9d00cfd6f8e4efd8dfe2c4c2e709b90%2Foriginal.html%3Fresponse-content-disposition%3Dattachment%253B%2Bfilename%253Dbase.html%26Expires%3D1688685908%26Signature%3DKnQjB6kFjCjTI7B3LoS7ISLamPyShLN6h5pnUn0SD2pv0Od2Do7sVJKyMTNOgiwKpPwsGHSB3LU1Paa-4bUZS-HKEx-1RTOyxI8MBnyfq7is4aQqtpyL2pI4HDecNC3Hq7CZ-AADBHfLAhrQDZmg17XC7iocnmS8FlsOzf9gwFF1b8dyjyvBLkmAq-HZWtHM8of68dsv9zaeNuYa0~FphnsHqtuhoiy8TfKGu8hL3DInviQmhzlh68KnrvDmtn5xslSG15qWzqdSHu3XWcAF0zkz7WJe69XmA61O~7d2VvLqKTd94k-FjKPDvo~lDp7hX~S0Vx0UX8nqWEI3a5e4-g__%26Key-Pair-Id%3DAPKAITJV77WS5ZT7262A&amp;app=com.google.Chrome&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1&amp;stealth=1&amp;st-push&amp;st-loc&amp;st-java&amp;st-dnt"></script>
+<script type="text/javascript" nonce="71becdb8ec7f4a5aa63cf9851f4" src="//local.adguard.org?ts=1688636291820&amp;name=AdGuard%20Extra&amp;type=user-script"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <title>Menu Products</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{% url 'home' %}">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        {% block content %}
+        {% endblock content %}
+
+<!-- JavaScript Bundle with Popper -->
+             <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    </body>
+</html>
